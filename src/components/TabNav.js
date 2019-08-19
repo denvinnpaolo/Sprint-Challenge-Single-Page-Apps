@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 // import { Tab, Menu, Icon } from "semantic-ui-react";
 import { Link, } from "react-router-dom";
-import SearchForm from "./SearchForm";
+// import SearchForm from "./SearchForm";
 
 
 // TODO: Add missing tabs below
@@ -20,9 +20,9 @@ export default function TabNav() {
             <div>
                  < Link to={"/EpisodeList"}class="item">Episodes</Link>
             </div>
-            <div>
+            {/* <div>
                 <SearchForm />
-            </div>
+            </div> */}
         </div>
     )
 
