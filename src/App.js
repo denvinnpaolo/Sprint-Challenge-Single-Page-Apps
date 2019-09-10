@@ -10,8 +10,8 @@ export default function App() {
     <main>
       <Header />
       <TabNav />
-      <AppRouter />
       <SearchForm />
+      <AppRouter />
     </main>
   );
 }
